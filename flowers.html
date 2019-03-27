@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+   <!-- CSS Bootstrap -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+   <!-- custom style -->
+   <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+<body class="reject-color">
+  
+  <!-- NavBar -->
+  <nav class="navbar fixed-top navbar-expand-lg">
+    <a class="navbar-brand" href="#"> <img src="assets/roseFlora-logo.png" alt="flora-logo" width="100px" height="50px">
+    </a>
+
+    <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button> -->
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+      <div class="navbar-nav font-weight-bolder">
+        <a class="nav-item nav-link border border-danger rounded-pill" href="#">Home</a>
+        <a class="nav-item nav-link border border-danger rounded-pill" href="#shop-cards">Shop</a>
+        <a class="nav-item nav-link border border-danger rounded-pill" href="#sign-in">Sign-in</a>
+        <a class="nav-item nav-link border border-danger rounded-pill" href="#about">About Us</a>
+        <a class="nav-item nav-link border border-danger rounded-pill" href="#contact">Contact</a>
+      </div>
+    </div>
+  </nav>
+  
+
+   
+  <!-- Image header -->
+  <div class="container-fluid">
+    <div class="row justify-content-end align-items-center">
+      <div class="col-lg-6"> 
+        <h2 class="float-left">Best way to say you <b class="pinky"> Care.</b></h2>
+        <h5 class="float-left ">
+            <b class="pinky"> Rose Flora.</b> Make someone happy.  <br> <br>
+            Creative solutions for all your floral needs.
+        </h5> 
+      </div>
+        <img src="assets/top-banner.png" class="rounded float-right" alt="" height="400px">
+    </div>
+  </div>
+
+  
+  
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  <!-- shop cards -->  
+  <!-- start container cards -->
+  <div class="container-fluid" id="shop-cards">
+    <h1 class="display-4 text-center">Shop</h1> <br>
+
+    <!-- Search bar -->
+    <nav class="navbar navbar-light  justify-content-center">
+        <form class="form-inline">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </nav>
+      <br>
+
+
+    <!-- start row one -->
+    <div class="row card-group">
+
+      <div class="col-lg-3 ">
+          <div class="card card-width ">
+              <img src="assets/pink-flower.jpg" class="card-img-top" alt="..." height="285px">
+              <div class="card-body ">  
+                <span class="badge badge-pill badge-info p-2 float-right">
+                    $27.00</span>
+                <h5 class="card-title">Mixed Basket Pink and Lilac</h5>
+                <label for="quantity">Quantity: </label>
+                <div class="clearfix">
+                <input type="number" class="form-control w-50 p-3 float-left mr-2" id="quantity" placeholder="1"  minlength="1">
+                          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#pink-flower">
+                Add to Cart
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="pink-flower" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <label for="calue">Price: </label>
+                      <input class="form-control" type="text" placeholder="$27.00" readonly>
+                      <br>
+                    <label for="calue">Total: </label>
+                      <input class="form-control" type="text" placeholder="$50.00" readonly>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" >Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>  
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-lg-3 ">
+          <div class="card card-width ">
+              <img src="assets/white.jpg" class="card-img-top" alt="..." height="285px">
+              <div class="card-body ">  
+                <span class="badge badge-pill badge-info p-2 float-right">
+                    $22.50</span>
+                <h5 class="card-title">Baby-Boy Perfect Gift</h5>
+                <label for="quantity">Quantity: </label>
+                <div class="clearfix">
+                <input type="number" class="form-control w-50 p-3 float-left mr-2" id="quantity" placeholder="1"  minlength="1">
+                          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#white">
+                Add to Cart
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="white" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <label for="calue">Price: </label>
+                      <input class="form-control" type="text" placeholder="$22.50" readonly>
+                      <br>
+                    <label for="calue">Total: </label>
+                      <input class="form-control" type="text" placeholder="$50.00" readonly>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" >Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>  
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-lg-3 ">
+          <div class="card card-width ">
+              <img src="assets/pinky.jpg" class="card-img-top" alt="..." height="285px">
+              <div class="card-body ">  
+                <span class="badge badge-pill badge-info p-2 float-right">
+                    $19.20</span>
+                <h5 class="card-title">Autumn Qumar Basket</h5>
+                <label for="quantity">Quantity: </label>
+                <div class="clearfix">
+                <input type="number" class="form-control w-50 p-3 float-left mr-2" id="quantity" placeholder="1"  minlength="1">
+                          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#pinky">
+                Add to Cart
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="pinky" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <label for="calue">Price: </label>
+                      <input class="form-control" type="text" placeholder="$19.20" readonly>
+                      <br>
+                    <label for="calue">Total: </label>
+                      <input class="form-control" type="text" placeholder="$50.00" readonly>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" >Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>  
+              </div>
+              </div>
+            </div>
+      </div>
+
+      <div class="col-lg-3">
+          <div class="card card-width">
+              <img src="assets/qamar.jpg" class="card-img-top" alt="..." height="285px">
+              <div class="card-body ">  
+                <span class="badge badge-pill badge-info p-2 float-right">
+                    $25.00</span>
+                <h5 class="card-title">Autumn Brights Globe</h5>
+                <label for="quantity">Quantity: </label>
+                <div class="clearfix">
+                <input type="number" class="form-control w-50 p-3 float-left mr-2" id="quantity" placeholder="1"  minlength="1">
+                          <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#qamar">
+                Add to Cart
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="qamar" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <label for="calue">Price: </label>
+                      <input class="form-control" type="text" placeholder="$25.00" readonly>
+                      <br>
+                    <label for="calue">Total: </label>
+                      <input class="form-control" type="text" placeholder="$50.00" readonly>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" >Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>  
+              </div>
+              </div>
+            </div>
+      </div>
+      
+      
+    </div> <!-- end row one -->
+
+
+
+
+
+    <!-- start row two -->
+    <div class="row mt-5">
+        
+
+        <div class="col-lg-3">
+            <div class="card card-width">
+                <img src="assets/bouqet22.jpg" class="card-img-top" alt="..." height="285px">
+                <div class="card-body ">  
+                  <span class="badge badge-pill badge-info p-2 float-right">
+                      $26.00</span>
+                  <h5 class="card-title">Rosada-Verde bouquet</h5>
+                  <label for="quantity">Quantity: </label>
+                  <div class="clearfix">
+                  <input type="number" class="form-control w-50 p-3 float-left mr-2" id="quantity" placeholder="1"  minlength="1">
+                            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#bouqet22">
+                Add to Cart
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="bouqet22" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <label for="calue">Price: </label>
+                      <input class="form-control" type="text" placeholder="$26.00" readonly>
+                      <br>
+                    <label for="calue">Total: </label>
+                      <input class="form-control" type="text" placeholder="$50.00" readonly>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" >Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>  
+                </div>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-3">
+            <div class="card card-width">
+                <img src="assets/banafsaj.jpg" class="card-img-top" alt="..." height="285px">
+                <div class="card-body ">  
+                  <span class="badge badge-pill badge-info p-2 float-right">
+                      $33.00</span>
+                  <h5 class="card-title">Morado-Yellow Perfect Gift</h5>
+                  <label for="quantity">Quantity: </label>
+                  <div class="clearfix">
+                  <input type="number" class="form-control w-50 p-3 float-left mr-2" id="quantity" placeholder="1"  minlength="1">
+                            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#banafsaj">
+                Add to Cart
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="banafsaj" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <label for="calue">Price: </label>
+                      <input class="form-control" type="text" placeholder="$33.00" readonly>
+                      <br>
+                    <label for="calue">Total: </label>
+                      <input class="form-control" type="text" placeholder="$50.00" readonly>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" >Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+                </div>
+                </div>
+              </div>
+        </div>
+
+
+        <div class="col-lg-3">
+            <div class="card card-width">
+                <img src="assets/orange.jpg" class="card-img-top" alt="..." height="285px">
+                <div class="card-body ">  
+                  <span class="badge badge-pill badge-info p-2 float-right">
+                      $27.00</span>
+                  <h5 class="card-title">Mixed Basket Pink and Lilac</h5>
+                  <label for="quantity">Quantity: </label>
+                  <div class="clearfix">
+                  <input type="number" class="form-control w-50 p-3 float-left mr-2" id="quantity" placeholder="1"  minlength="1">
+                                <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#exampleModal">
+                Add to Cart
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <label for="calue">Price: </label>
+                      <input class="form-control" type="text" placeholder="$27.00" readonly>
+                      <br>
+                    <label for="calue">Total: </label>
+                      <input class="form-control" type="text" placeholder="$50.00" readonly>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" >Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+                </div>
+                </div>
+              </div>
+        </div>        
+
+        <div class="col-lg-3">
+            <div class="card card-width">
+                <img src="assets/colors.jpg" class="card-img-top" alt="..." height="285px">
+                <div class="card-body ">  
+                  <span class="badge badge-pill badge-info p-2 float-right">
+                      $24.00</span>
+                  <h5 class="card-title">Mixed Basket Pink and Lilac</h5>
+                  <label for="quantity">Quantity: </label>
+                  <div class="clearfix">
+                  <input type="number" class="form-control w-50 p-3 float-left mr-2" id="quantity" placeholder="1"  minlength="1">
+                              <!-- Button trigger modal -->
+            <button type="button" class="btn btn-danger float-right" data-toggle="modal" data-target="#colors">
+                Add to Cart
+            </button>
+  
+            <!-- Modal -->
+            <div class="modal fade" id="colors" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Cart</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <label for="calue">Price: </label>
+                      <input class="form-control" type="text" placeholder="$24.00" readonly>
+                      <br>
+                    <label for="calue">Total: </label>
+                      <input class="form-control" type="text" placeholder="$50.00" readonly>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-success" >Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+                
+                </div>
+                </div>
+              </div>
+        </div>
+        
+    </div> <!-- end row two -->
+
+  </div> <!-- end container cards -->
+  <br><br>
+
+  
+
+
+
+  <hr class="my-4" >
+
+  <!-- Sign-in section -->
+   <h1 class="display-4 text-center" id="sign-in" >Register & Sign-in</h1>
+   <br>
+  <ul class="nav nav-tabs row justify-content-center " role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active rounded-pill border border-primary" id="signup-tab" data-toggle="tab" href="#signup" role="tab" aria-controls="signup" aria-selected="true">Sign-up</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link rounded-pill border border-primary " id="signin-tab" data-toggle="tab" href="#signin" role="tab" aria-controls="signin" aria-selected="false">Sign-in</a>
+      </li>
+    </ul> <br>
+    <div class="tab-content row justify-content-center" id="myTabContent">
+      <div class="tab-pane fade show active col-4" id="signup" role="tabpanel" aria-labelledby="signup-tab">
+        
+          <form class="form-signin" >
+              <h1 class="h3 mb-3 font-weight-normal">Register user account</h1>
+              <label for="inputUsername" class="sr-only"> User name</label>
+              <input type="text" id="inputUsername" class="form-control" placeholder="User name" required autofocus> <br>
+              <label for="inputEmail" class="sr-only">Email address</label>
+              <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus> <br>
+              <label for="inputPassword" class="sr-only">Password</label>
+              <input type="password" id="inputPassword" class="form-control" placeholder="Password" required> <br>
+              <label for="inputPassword2" class="sr-only">Re-type Password</label>
+              <input type="password2" id="inputPassword2" class="form-control" placeholder="Re-type Password" required> <br>
+             
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Sign up</button>
+        </form>
+
+      </div>
+
+      <div class="tab-pane fade col-4" id="signin" role="tabpanel" aria-labelledby="signin-tab">
+
+        <form class="form-signin">
+              <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+              <label for="inputEmail" class="sr-only">Email address</label>
+              <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus> <br>
+              <label for="inputPassword" class="sr-only">Password</label>
+              <input type="password" id="inputPassword" class="form-control" placeholder="Password" required> <br>
+              <div class="checkbox mb-3">
+                <label>
+                  <input type="checkbox" value="remember-me"> Remember me
+                </label>
+              </div>
+              <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+        </form>
+      
+      </div>
+      
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- About Us section -->
+  <div class="containe-fluid jumbotron text-center reject-color" id="about">
+      <h1 class="display-4">About Us</h1>
+        <p class="lead">
+          Catering to your requirements, handling your needs with care
+        </p>
+        <hr class="my-4">
+        <p>Our store is more than just another average online retailer. We sell not only top quality products, but give our customers a positive online shopping experience. Forget about struggling to do everything at once: taking care of the family, running your business, walking your dog, cleaning the house, doing the shopping, etc. Purchase the goods you need every day or just like in a few clicks or taps, depending on the device you use to access the Internet. We work to make your life more enjoyable.
+        </p>
+        <p class="lead">Our team</p>
+        <a class="btn btn-lg" href="#" role="button">
+          <img src="assets/Sami.jpg" alt="sami">
+          <figcaption>Sami ali</figcaption>
+        </a>
+        <a class="btn btn-lg" href="#" role="button">
+          <img src="assets/nasser.jpg" alt="Instagram">
+          <figcaption>Nasser essa</figcaption>
+        </a>
+        <a class="btn btn-lg" href="#" role="button">
+          <img src="assets/edna.jpg" alt="edna">
+          <figcaption>Emma edna</figcaption>
+        </a>
+    </div>
+
+
+
+
+
+
+
+<!-- Contact us section -->
+  <div class="containe-fluid jumbotron text-center" id="contact">
+    <h1 class="display-4">Contact Us</h1>
+    <p class="lead">Customer Service, Let’s Get in Touch</p>
+    <hr class="my-4">
+    <p> 
+        Send A Message
+    </p>
+    <!-- contact form-->
+    <form>
+        <div class="row justify-content-center">
+          <div class="col-4">
+            <input type="text" class="form-control" placeholder="Your name">
+          </div>
+          <div class="col-4">
+            <input type="email" class="form-control" placeholder="Your e-mail">
+          </div>
+          <div class="col-8 form-group mt-3">
+              <textarea class="form-control" placeholder="Your message" rows="3"></textarea>
+          </div>
+          <div class="col-5">
+          <button type="submit" class="btn btn-primary">Send</button>
+          </div>
+
+        </div>
+    </form>
+    <br>
+    <p class="lead">Follow us on Soical Media</p>
+    <a class="btn btn-lg" href="#" role="button">
+      <img src="assets/Twitter.png" alt="twitter">
+    </a>
+    <a class="btn btn-lg" href="#" role="button">
+      <img src="assets/Instagram.png" alt="Instagram">
+    </a>
+    <a class="btn btn-lg" href="#" role="button">
+      <img src="assets/Facebook.png" alt="Facebook">
+    </a>
+
+  </div>
+
+
+
+
+
+
+
+
+
+  <!-- footer section -->
+  <footer class="container py-5" >
+      <div class="row">
+        <div class="col-12 col-md">
+            <img src="assets/roseFlora-logo.png" alt="flora-logo" width="110px" height="60px">
+          <small class="d-block mb-3 text-muted">&copy; 2017-2019</small>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Information</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Cool stuff</a></li>
+            <li><a class="text-muted" href="#">Specials</a></li>
+            <li><a class="text-muted" href="#">New products</a></li>
+            <li><a class="text-muted" href="#">Design idea</a></li>
+            <li><a class="text-muted" href="#">Shipping</a></li>
+            <li><a class="text-muted" href="#">Flower Care</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>Categories</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Occasions</a></li>
+            <li><a class="text-muted" href="#">Color</a></li>
+            <li><a class="text-muted" href="#">Bushes</a></li>
+            <li><a class="text-muted" href="#">Unique flowers</a></li>
+            <li><a class="text-muted" href="#">Window Plants</a></li>
+            <li><a class="text-muted" href="#">Accessories</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>My Account</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">My orders</a></li>
+            <li><a class="text-muted" href="#">My merchandise returns</a></li>
+            <li><a class="text-muted" href="#">My credit slips</a></li>
+            <li><a class="text-muted" href="#">My personal info</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md">
+          <h5>About Us</h5>
+          <ul class="list-unstyled text-small">
+            <li><a class="text-muted" href="#">Team</a></li>
+            <li><a class="text-muted" href="#">Locations</a></li>
+            <li><a class="text-muted" href="#">Privacy</a></li>
+            <li><a class="text-muted" href="#">Terms</a></li>
+            <li><a class="text-muted" href="#">Sitemap</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+
+
+    
+   
+
+
+
+
+
+
+
+
+
+    <!-- bootstrap js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <!-- Fixed NavBar once scrolling -->
+    <script>
+      $(window).scroll(function(){
+        let scroll = $(window).scrollTop();
+        if(scroll < 200){
+            $('.fixed-top').css('background', 'transparent');
+        } else{
+            $('.fixed-top').css('background', 'rgba(159,164,196,0.8)');
+        }
+    });
+    </script>
+</body>
+</html>
+

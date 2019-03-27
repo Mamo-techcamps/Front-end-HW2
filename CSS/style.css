@@ -1,0 +1,33 @@
+
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan|Titillium+Web|Varela+Round');
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+body{
+  font-family: 'Baloo Chettan', cursive;
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.nav-item {
+  margin-right: 30px;
+  color: #c51162;
+}
+
+
+.reject-color {
+  background-color: #d9e4f5;
+  background-image: linear-gradient(315deg, #d9e4f5 0%, #f5e3e6 74%);
+}
+
+.card-width{
+  width: 18rem;
+}
+
+.pinky{
+  color: rgb(226, 9, 92)
+}
+
